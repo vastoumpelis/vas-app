@@ -1,0 +1,144 @@
+{
+  "main": {
+    "name": "Vas Toumpelis",
+    "occupation": "Web Developer",
+    "description": "I have created this website to showcase my skills and experience. Also, I wanted to give an insight into my personality",
+    "image": "profilepic.jpg",
+    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "vastoumpelis@gmail.com",
+    "phone": "(+44) 7514203925",
+    "address": {
+      "street": "Jewellery Quarter",
+      "city": "Birmingham",
+      "state": "West Midlands",
+      "zip": "B1 3AS"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/vas-toumpelis",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/vastoumpelis",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/basilistube",
+        "className": "fa fa-instagram"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I'm a passionate developer with experience in front and back-end web development of e-commerce applications, with 4 years experience of working with APIs and integrations.",
+    "education": [
+      {
+        "school": "University of Essex",
+        "degree": "Computer Science (BSc) 1st Class",
+        "graduated": "July 2017",
+        "description": "Relevant modules included: Software Engineering, Object-Oriented Programming, Application Programming, Web Programming, Databases, Mobile Robotics, Individual and Group Projects."
+      },
+      {
+        "school": "General Lyceum of Mygdonia, Greece",
+        "degree": "Greek Apolytirion",
+        "graduated": "June 2014",
+        "description": "Graduation Certificate of mark 18.3/20, rated “Excellent”."
+      }
+    ],
+    "work": [
+      {
+        "company": "Enigen UK",
+        "title": "Developer",
+        "years": "November 2020 - Present",
+        "description": "Working as part of a team responsible for delivering API-first e-commerce and bespoke web development solutions. Used JavaScript, HTML, CSS, Knockout.js and APIs to develop and integrate solutions based on the Oracle Commerce Cloud platform. Experienced in front and back-end development, following industry-standard development workflows and best practices"
+      },
+      {
+        "company": "Enigen UK",
+        "title": "CX Consultant",
+        "years": "July 2019 - November 2020",
+        "description": "Responsible for communicating with internal team, supervising and training analysts in order to lead implementation projects of Oracle CRM solutions. Continuously interacting with customers to discuss, analyse and meet their requirements."
+      },
+      {
+        "company": "Enigen UK",
+        "title": "CX Analyst ",
+        "years": "January 2018 - July 2019",
+        "description": "Responsible for communicating with internal team, supervising and training analysts in order to lead implementation projects of Oracle CRM solutions. Continuously interacting with customers to discuss, analyse and meet their requirements."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "80%"
+      },
+      {
+        "name": "Javascript",
+        "level": "70%"
+      },
+      {
+        "name": "CSS",
+        "level": "70%"
+      },
+      {
+        "name": "HTML5",
+        "level": "75%"
+      },
+      {
+        "name": "REST APIs",
+        "level": "80%"
+      },
+      {
+        "name": "KnockoutJs",
+        "level": "70%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "40%"
+      },
+      {
+        "name": "Python",
+        "level": "40%"
+      }
+    ]
+  },
+  "photos": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      }
+    ]
+  },
+  "goals": {
+    "goals": [
+      {
+        "text": "My goal is to ...",
+        "user": "VT - 2021"
+      }
+    ]
+  }
+}
