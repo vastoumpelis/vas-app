@@ -297,6 +297,7 @@ ul#nav li.current a {
 #resume h1 span {
   border-bottom: 3px solid #c8a05b;
   padding-bottom: 6px;
+  white-space: nowrap;
 }
 #resume h3 {
   font: 25px/30px 'opensans-bold', sans-serif;
@@ -310,7 +311,8 @@ ul#nav li.current a {
 }
 
 .education,
-.work {
+.work,
+.skill {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
@@ -477,6 +479,70 @@ ul#nav li.current a {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }  */
+
+/*----------------------------------------------*/
+/*	Project Experience Carousel
+/*----------------------------------------------*/
+
+.carousel-container {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px !important;
+}
+
+.carousel-indicators {
+  text-align: center;
+  font-size: 40px;
+  color: #313131;
+}
+
+.carousel-indicators ul {
+  list-style: none;
+}
+
+.carousel-indicators li {
+  display: inline;
+}
+
+.carousel-slide {
+  width: 400px;
+  opacity: 50%;
+  padding: 0 30px;
+  margin: 0 30px;
+}
+
+.active-slide {
+  opacity: 100%;
+}
+
+.carousel-container button {
+  height: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 80%;
+  }
+
+  .carousel-container button {
+    display: none;
+  }
+
+  /* .active-slide {
+    width: 400px !important;
+  } */
+}
+
+@media (max-width: 400px) {
+  .carousel-slide {
+    /* Width 80% of screen's width */
+    width: 80vw;
+  }
+}
 
 /* ------------------------------------------------------------------ */
 /* e. Photos Section
@@ -830,6 +896,7 @@ call-to-action .button {
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container {
@@ -1097,6 +1164,12 @@ footer .copyright li:before {
 }
 footer .copyright li:first-child:before {
   display: none;
+}
+
+.react-icon {
+  width: 40px;
+  height: auto;
+  vertical-align: middle;
 }
 
 /* social links */

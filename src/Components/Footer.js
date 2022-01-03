@@ -21,14 +21,13 @@ class Footer extends Component {
             <ul className="social-links">{networks}</ul>
 
             <ul className="copyright">
-              <li>&copy; Copyright 2021 Vasileios Toumpelis</li>
-              <li>
-                Template Design by{' '}
-                <a title="Styleshout" href="http://www.styleshout.com/">
-                  Styleshout
-                </a>
-              </li>
+              <li>&copy; Copyright 2021</li>
+              <li>Vasileios Toumpelis</li>
             </ul>
+            <div>
+              <span>Built using React.js</span>
+              <img className="react-icon" alt="" src="images/react_icon.png" />
+            </div>
           </div>
           <div id="go-top">
             <a className="smoothscroll" title="Back to Top" href="#home">

@@ -4,18 +4,18 @@
     "occupation": "Web Developer",
     "description": "I have created this website to showcase my skills and experience. Also, I wanted to give an insight into my personality",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "bio": "My name is Vasileios Toumpelis, but everyone calls me 'Vas'. I was born in Greece and at 18 I moved into the UK to pursue my dream of becoming a programmer, staring with a Computer Science BSc. After graduating I started working in this field and started enhancing my coding and professional skills, which I have been using for the last 4+ years to help others reach their digital goals.",
+    "contactmessage": "Feel free to use the below form, or my contact details to get in touch with me",
     "email": "vastoumpelis@gmail.com",
-    "phone": "(+44) 7514203925",
+    "phone": "+44 (0)7514203925",
     "address": {
       "street": "Jewellery Quarter",
       "city": "Birmingham",
       "state": "West Midlands",
       "zip": "B1 3AS"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "website": "vas-toumpelis.info",
+    "resumedownload": "https://github.com/vastoumpelis/file/raw/main/Vasileios%20Toumpelis%20CV.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -36,6 +36,7 @@
   },
   "resume": {
     "skillmessage": "I'm a passionate developer with experience in front and back-end web development of e-commerce applications, with 4 years experience of working with APIs and integrations.",
+    "project_exp_message": "My career as a consultant and a developer have allowed me to gather and develop valuable professional skills, outside of coding, across all stages of small and large projects. Furthermore, I have gained experience working on Waterfall, Agile and hybrid methodology projects.",
     "education": [
       {
         "school": "University of Essex",
@@ -76,7 +77,7 @@
         "level": "80%"
       },
       {
-        "name": "Javascript",
+        "name": "JavaScript",
         "level": "70%"
       },
       {
@@ -103,41 +104,40 @@
         "name": "Python",
         "level": "40%"
       }
-    ]
-  },
-  "photos": {
-    "projects": [
+    ],
+    "project_exp": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "index": 0,
+        "phase": "Analysis & Design",
+        "experience": "I have been involved in the analysis and design phases of multiple projects. Being responsible for managing customer workshops, gathering customer criteria and presenting solution demos. Moreover, I was responsible for analysis the customer criteria and discussions in order to design and document (TDD, FDD, etc.) the proposed solutions."
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "index": 1,
+        "phase": "Build",
+        "experience": "Since 2018, I have been part of several Oracle CX and E-Commerce Cloud successful implementations for customers across many industries. This has allowed me to sharpen my configuration and development skills, as well as gain experience with a number of Oracle cloud technologies (Content Management, Customer Relationship Management, Customer Service) and programming languages (JavaScript, HTML, CSS, React.js, etc.)."
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "index": 2,
+        "phase": "Testing",
+        "experience": "All the projects I have worked on required a several sub-stages of testing (internal and external) in order to validate that the results fit the overall solution and customer requirements. Usually these stages were, developer testing (internal), QA testing and User Acceptance Testing (UAT). Other than completing internal testing myself, I have also been responsible with communicating with the QA team and the customer (during UAT) to support testing and resolve bugs."
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "index": 3,
+        "phase": "Training",
+        "experience": "While working at Enigen, I have been responsible for creating customer training material, such as documentation, guides and video tutorials to help our customer use and administer the delivered solution effectively. Furthermore, I was often assigned the task of delivering and leading customer training sessions and workshops, both remotely and on-site."
+      },
+      {
+        "index": 4,
+        "phase": "Go-Live",
+        "experience": "The ultimate goal of every project is a successful and smooth go-live. For the last 4 years I have always been part of the team responsible for making sure our solution is ready to be fully utilised by the customer without any issues. Additionally, I have been the allocated go-live point of content on multiple occasions, meaning I was responsible for communicating with the customer directly to resolve any go-live issues or queries."
       }
     ]
   },
   "goals": {
     "goals": [
       {
-        "text": "My goal is to ...",
-        "user": "VT - 2021"
+        "text": "Thank you for taking the time to go through my website and learn more about me as a developer and as a person. My goal is to become a great developer through hard (and smart) work, dedication and great opportunities so I can help companies and individuals achieve their digital goals and deliver amazing results.",
+        "user": "Vas - 2021"
       }
     ]
   }
