@@ -8,6 +8,7 @@ import About from './Components/About'
 import Resume from './Components/Resume'
 import Contact from './Components/Contact'
 import Goals from './Components/Goals'
+import appData from './resumeData.json'
 
 class App extends Component {
   constructor(props) {
@@ -37,7 +38,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.getResumeData()
+    // this.getResumeData() for api (server access)
+    this.setState({ resumeData: appData })
   }
 
   render() {
